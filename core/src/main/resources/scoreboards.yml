@@ -1,0 +1,191 @@
+lobby-scoreboard:
+  title:
+    interval: 100
+    text:
+      - '&e&lSkyWars'
+  content:
+    line-1:
+      interval: 100
+      text:
+        - ''
+    line-2:
+      interval: 100
+      text:
+        - '&f> &6Estadísticas'
+    line-3:
+      interval: 100
+      text:
+        - ''
+    line-4:
+      interval: 20
+      text:
+        - '&fDinero: &a{skywars_statistics:money}'
+    line-5:
+      interval: 20
+      text:
+        - '&fVictorias: &6{skywars_statistics:solo-wins}'
+    line-6:
+      interval: 20
+      text:
+        - '&fDerrotas: &c{skywars_statistics:solo-losses}'
+    line-7:
+      interval: 20
+      text:
+        - '&fAsesinatos: &e{skywars_statistics:solo-kills}'
+    line-8:
+      interval: 20
+      text:
+        - '&fMuertes: &4{skywars_statistics:solo-deaths}'
+    line-9:
+      interval: 100
+      text:
+        - ''
+    line-10:
+      interval: 20
+      text:
+        - '&eplay.example.net'
+        - '&aplay.example.net'
+waiting-scoreboard:
+  enabled: true
+  title:
+    interval: 100
+    text:
+      - '&e&lSkyWars &f&l{skywars_match:match-type}'
+  content:
+    line1:
+      interval: 100
+      text:
+        - ''
+    line2:
+      interval: 20
+      text:
+        - '&fEstado: &e{skywars_match:match-state}'
+    line3:
+      interval: 100
+      text:
+        - ''
+    line4:
+      interval: 1
+      text:
+        - '&fTiempo de inicio: &a{skywars_match:waiting-time}'
+    line5:
+      interval: 10
+      text:
+        - ''
+    line6:
+      interval: 100
+      text:
+        - '&fMapa: &a{skywars_match:match-name}'
+    line7:
+      interval: 20
+      text:
+        - "&fJugadores: &a{skywars_match:alive-teams}/{skywars_match:max-teams}"
+    line8:
+      interval: 100
+      text:
+        - ''
+    line9:
+      interval: 20
+      text:
+        - '&eplay.example.net'
+        - '&aplay.example.net'
+starting-scoreboard:
+  enabled: true
+  title:
+    interval: 100
+    text:
+      - '&e&lSkyWars &f&l{skywars_match:match-type}'
+  content:
+    line1:
+      interval: 100
+      text:
+        - ''
+    line2:
+      interval: 20
+      text:
+        - '&fEstado: &e{skywars_match:match-state}'
+    line3:
+      interval: 100
+      text:
+        - ''
+    line4:
+      interval: 1
+      text:
+        - '&fTiempo de espera: &a{skywars_match:starting-time}'
+    line5:
+      interval: 10
+      text:
+        - ''
+    line6:
+      interval: 100
+      text:
+        - '&fMapa: &a{skywars_match:match-name}'
+    line7:
+      interval: 20
+      text:
+        - "&fJugadores: &a{skywars_match:alive-teams}/{skywars_match:max-teams}"
+    line8:
+      interval: 100
+      text:
+        - ''
+    line9:
+      interval: 20
+      text:
+        - '&eplay.example.net'
+        - '&aplay.example.net'
+game-scoreboard:
+  enabled: true
+  title:
+    interval: 100
+    text:
+      - '&e&lSkyWars &f&l{skywars_match:match-type}'
+  content:
+    line1:
+      interval: 100
+      text:
+        - ''
+    line2:
+      interval: 100
+      text:
+        - '&fPróximo evento:'
+    line3:
+      interval: 20
+      text:
+        - '&a{skywars_match:event-name} {skywars_match:event-time}'
+    line4:
+      interval: 100
+      text:
+        - ''
+    line5:
+      interval: 20
+      text:
+        - '&fEquipos vivos: &a{skywars_match:alive-teams}'
+    line6:
+      interval: 100
+      text:
+        - ''
+    line7:
+      interval: 20
+      text:
+        - '&fAsesinatos: &a{skywars_statistics:kills}'
+    line8:
+      interval: 100
+      text:
+        - ''
+    line9:
+      interval: 100
+      text:
+        - '&fMapa: &a{skywars_match:match-name}'
+    line10:
+      interval: 100
+      text:
+        - '&fModo: {skywars_match:match-type}'
+    line11:
+      interval: 100
+      text:
+        - ''
+    line12:
+      interval: 20
+      text:
+        - '&eplay.example.net'
+        - '&aplay.example.net'

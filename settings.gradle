@@ -1,0 +1,5 @@
+rootProject.name = 'skywars'
+
+['api', 'core'].forEach(it -> {
+    include(it)
+})

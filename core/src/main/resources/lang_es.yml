@@ -1,0 +1,63 @@
+match:
+  already-in-match: "&c¡Ya te encuentras en una partida!"
+  full-match: "&c¡Esta partida ya se encuentra llena!"
+  not-available: "&c¡Esta partida ya ha empezado!"
+  any-match-found: "&c¡No se ha encontrado ninguna partida del modo %match-type%! ¡Intenta nuevamente más tarde!"
+  full-team: "&c¡El equipo al que tratabas unirte está lleno!"
+  not-in-game: "&c¡No te encuentras en ningún juego!"
+  who-win: "&f¡El equipo &a%winner_team% &fha ganado la partida!"
+  join: "&eEl jugador &a%player-name% &ese ha unido al juego. &7(&a%current_players%&7/&a%maximum_players%&7)&e."
+  leave: "&cEl jugador &a%player-name% &c abandonó al juego. &7(&a%current_players%&7/&a%maximum_players%&7)&c."
+user-events:
+  victory:
+    title: "&6&lVICTORIA MAGISTRAL"
+    sub-title: "&f¡Haz triunfado en esta partida!"
+  kill:
+    action-bar: "&f¡Haz asesinado a &a%player-name%&f!"
+  spectator:
+    title: "&c&l¡ESPECTADOR!"
+    sub-title: "&f¡Has sido asesinado!"
+  arrow-message: "&f¡La vida de &a%target-name% &fahora es &c%target-health%&f!"
+countdown:
+  lobby:
+    message: "&f¡El juego empezará en &a%seconds-remaining% &fsegundos!"
+    title: "&fEnviando a las jaulas en..."
+    sub-title: "&a%seconds-remaining%"
+    action-bar: "&f¡Enviando a las jaulas en &a%seconds-remaining% &fsegundos!"
+  cages:
+    message: "&f¡Las jaulas serán destruidas en &a%seconds-remaining% &fsegundos!"
+    title: "&fDestruyendo jaulas en..."
+    sub-title: "&a%seconds-remaining%"
+    action-bar: "&f¡Destruyendo las jaulas en &a%seconds-remaining% &fsegundos!"
+match-setup:
+  teleported: "&f¡Has sido enviado al mundo &a%world-name%&f!"
+  created: "&f¡La partida &a%match-name% &fse ha creado correctamente!"
+  lobby-coordinates: "&f¡Haz definido las coordenadas del vestíbulo para la partida &a%match-name%&f! Localización: x:%position-x% y:%position-y% z:%position-z%"
+  spectator-coordinates: "&f¡Haz definido las coordenadas del punto de espectador para la partida &a%match-name%&f! Localización: x:%position-x% y:%position-y% z:%position-z%"
+  spawn-coordinates: "&f¡Haz añadido las coordenadas de engendro &a#%spawn-number% &fpara la partida &a%match-name%&f! Localización: x:%position-x% y:%position-y% z:%position-z%"
+  max-spawns: "&c¡Ya haz definido el número máximo (%spawns-limit%) de coordenadas de engendro!"
+  null-zone: "&c¡La zona de juego de la partida %match-name% aún no se ha definido!"
+  scanned-chests: "&f¡Los cofres para la partida &a%match-name% &fse han escaneado correctamente! Se han encontrado &a%scanned-chests% &fcofres."
+  saving: "&fLa partida &a%match-name% &fse está registrando en la base de datos..."
+  saved: "&f¡La partida &a%match-name% &fse ha registrado correctamente!"
+event-type:
+  refill: "&a¡Los cofres han sido rellenados!"
+  dragon: "&a¡Cuidado con el dragón!"
+  wither: "&a¡Cuidado con el wither!"
+  border: "&a¡El borde se está volviendo más pequeño!"
+  tnt_rain: "&a¡Cuidado, está lloviendo TNT!"
+  giant_zombie: "&a¡Cuidado, unos zombies gigantes han sido engendrados!"
+  none: "Ninguno"
+commands:
+  user:
+    not-found: "&c¡Desconocido!"
+  sender:
+    unknown: "&c¡Desconocido!"
+    only-player: "&c¡Este comando solo puede ser ejecutado por un jugador!"
+  command:
+    no-permission: "&c¡No tienes permisos para ejecutar este comando!"
+    subcommand:
+      invalid: "&c¡El sub-comando %s no existe!"
+  argument-more: "&c¡No se encontró ningún sub-comando! Tamaño: %s | Posición: %s."
+  match:
+    not-found: "&c¡No se ha encontrado una partida con el nombre %s!"

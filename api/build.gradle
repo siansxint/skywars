@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'net.sintaxis.skywars'
+version '0.0.1'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compileOnly 'org.mongodb:mongodb-driver-sync:4.3.0'
+    compileOnly 'com.fasterxml.jackson.core:jackson-databind:2.12.5'
+    compileOnly 'com.github.Solotory:mongo-jackson-codec:1.0.0'
+}

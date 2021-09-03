@@ -1,0 +1,7 @@
+name: skywars
+version: 0.0.1
+main: net.sintaxis.skywars.core.SkyWars
+api-version: 1.16
+depend: [ WorldEdit ]
+softdepend: [ PlaceholderAPI ]
+loadbefore: [ Multiverse-Core ]

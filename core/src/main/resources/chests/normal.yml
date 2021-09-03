@@ -1,0 +1,114 @@
+items:
+  1:
+    name: "&bEspada de diamante"
+    lore:
+      - "&7¡Combate contra los demás con esta espada!"
+    material: "diamond_sword"
+    data: 0
+    min: 1
+    max: 1
+    probability: 60
+    enchantments:
+      - "fire_aspect:2"
+  2:
+    name: "&bCasco de diamante"
+    lore:
+      - "&7¿No eres un guerrero? ¡Usa esta pieza de"
+      - "&7tu armadura y consigue la victoria ante los demás!"
+    material: "diamond_helmet"
+    data: 0
+    min: 1
+    max: 1
+    probability: 30
+    enchantments:
+      - "protection_environmental:5"
+  3:
+    name: "&bPechera de diamante"
+    lore:
+      - "&7¿No eres un guerrero? ¡Usa esta pieza de"
+      - "&7tu armadura y consigue la victoria ante los demás!"
+    material: "diamond_chestplate"
+    data: 0
+    min: 1
+    max: 1
+    probability: 30
+    enchantments:
+      - "protection_environmental:5"
+  4:
+    name: "&bPantalones de diamante"
+    lore:
+      - "&7¿No eres un guerrero? ¡Usa esta pieza de"
+      - "&7tu armadura y consigue la victoria ante los demás!"
+    material: "diamond_leggings"
+    data: 0
+    min: 1
+    max: 1
+    probability: 30
+    enchantments:
+      - "protection_environmental:5"
+  5:
+    name: "&bBotas de diamante"
+    lore:
+      - "&7¿No eres un guerrero? ¡Usa esta pieza de"
+      - "&7tu armadura y consigue la victoria ante los demás!"
+    material: "diamond_boots"
+    data: 0
+    min: 1
+    max: 1
+    probability: 30
+    enchantments:
+      - "protection_environmental:5"
+  6:
+    name: "&6Carne de cerdo cocinada"
+    lore:
+      - "&7¡Aunque seas un guerrero, te hará falta comer!"
+    material: "cooked_beef"
+    data: 0
+    min: 16
+    max: 32
+    probability: 70
+  7:
+    name: "&8Caña de pescar"
+    lore:
+      - "&7¿Vas a pescar o pelear los demás?"
+    material: "fishing_rod"
+    data: 0
+    min: 1
+    max: 1
+    probability: 70
+  8:
+    name: "&eArco"
+    lore:
+      - "&7¡Manten al limite a tus enemigos!"
+    material: "bow"
+    data: 0
+    min: 1
+    max: 1
+    probability: 30
+  9:
+    name: "&7Flechas"
+    lore:
+      - "&7¡Usame con presición!"
+    material: "arrow"
+    data: 0
+    min: 16
+    max: 32
+    probability: 80
+  10:
+    name: "&6&lManzana de oro"
+    lore:
+      - "&7¡Consumela cuando sea más necesario!"
+    material: "golden_apple"
+    data: 0
+    min: 1
+    max: 4
+    probability: 10
+  11:
+    name: "&7&lBloque"
+    lore:
+      - "&7¡Trata de no caerte!"
+    material: "stone"
+    data: 0
+    min: 16
+    max: 64
+    probability: 100

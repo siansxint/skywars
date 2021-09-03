@@ -1,0 +1,21 @@
+mongo:
+  uri: "mongodb://localhost"
+world-handler:
+  type: "file" #You can select between 'file' or 'slime', obviously, if you select slime, you need the SlimeWorldManager installed
+chat:
+  global-id: "@"
+  global-format: "[%player_world%] %player_name% > %message%"
+  team-format: "[%team-name%] %player_name% > %message%"
+team:
+  format: "%team-id%"
+lobby-world-name: "world"
+match:
+  waiting-time: 60
+  starting-time: 30
+tag-formats:
+  alive:
+    prefix: "&a"
+    suffix: " [{skywars_statistics:kills}]"
+  dead:
+    prefix: "&7"
+    suffix: ""
